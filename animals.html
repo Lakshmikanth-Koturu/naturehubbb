@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Animals</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #46fae8;
+            }
+            
+            li {
+            float: left;
+            padding-right: 20px;
+            }
+            
+            li a, .dropbtn {
+            display: inline-block;
+            color: rgb(9, 12, 9);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+            
+            li a:hover, .dropdown:hover .dropbtn {
+            background-color: rgb(12, 181, 253);
+            }
+            
+            li.dropdown {
+            display: inline-block;
+            }
+            
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color:aquamarine;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            }
+            
+            .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            }
+            
+            .dropdown-content a:hover {background-color: #f1f1f1;}
+            
+            .dropdown:hover .dropdown-content {
+            display: block;
+            }
+        body{
+            margin: 0;
+            color:white;
+            padding: 0;
+            background-image: url("tropical.jpg");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            background-attachment: fixed;
+            background-blend-mode:darken;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: rgba(255, 255, 255, 0.3)
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+            width: 200px;  
+            height: 50px; 
+        }
+        th {
+            background-color:transparent;
+        }
+        td img {
+            max-width: 200px;
+            height: auto;
+        }
+        td{
+            color: white;
+        }
+        tr:hover {
+            background-color:lightblue;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    
+    </style>
+</head>
+<body>
+  <ul>      <li class="dropdown">
+            <a href="#" class="dropbtn">Categories</a>
+            <div class="dropdown-content">
+            <a href="plants.html">Plants</a>
+            <a href="animals.html">Animals</a>
+            <a href="landscapes.html">Landscapes</a>
+    <li><a href="Homepage.html">Home</a></li>
+    </div>
+    </li>
+    </ul>
+    <div class="one">
+        <h1>Animals</h1>
+        <table>
+            <tr>
+                <th><h2>Name</h2></th>
+                <th><h2>Type</h2></th>
+                <th><h2>Lifespan</h2></th>
+                <th><h2>Region</h2></th>
+                <th><h2>Photo</h2></th>
+            </tr>
+            <tr>
+                <td>Elephant</td>
+                <td>Mammal</td>
+                <td>60-70 years</td>
+                <td>Africa, Asia</td>
+                <td><a href="https://en.wikipedia.org/wiki/Elephant" target="_blank"><img src="elephant.jpg" alt="Elephant"></a></td>
+            </tr>
+            <tr>
+                <td>Lion</td>
+                <td>Mammal</td>
+                <td>10-14 years</td>
+                <td>Africa, India</td>
+                <td><a href="https://en.wikipedia.org/wiki/Lion" target="_blank"><img src="lion.jpg" alt="Lion"></a></td>
+            </tr>
+            <tr>
+                <td>Bald Eagle</td>
+                <td>Bird</td>
+                <td>20-30 years</td>
+                <td>North America</td>
+                <td><a href="https://en.wikipedia.org/wiki/Bald_eagle" target="_blank"><img src="eagle.jpg" alt="Bald Eagle"></a></td>
+            </tr>
+            <tr>
+                <td>Green Sea Turtle</td>
+                <td>Reptile</td>
+                <td>50-80 years</td>
+                <td>Oceans worldwide</td>
+                <td><a href="https://en.wikipedia.org/wiki/Green_sea_turtle" target="_blank"><img src="turtle.avif" alt="Green Sea Turtle"></a></td>
+            </tr>
+            <tr>
+                <td>Great White Shark</td>
+                <td>Fish</td>
+                <td>70 years</td>
+                <td>Coastal waters</td>
+                <td><a href="https://en.wikipedia.org/wiki/Great_white_shark" target="_blank"><img src="shark.jpg" alt="Great White Shark"></a></td>
+            </tr>
+            <tr>
+                <td>American Bison</td>
+                <td>Mammal</td>
+                <td>15-25 years</td>
+                <td>North America</td>
+                <td><a href="https://en.wikipedia.org/wiki/American_bison" target="_blank"><img src="bison.jpg" alt="American Bison"></a></td>
+            </tr>
+            <tr>
+                <td>Saltwater Crocodile</td>
+                <td>Reptile</td>
+                <td>70-100 years</td>
+                <td>Rivers, wetlands</td>
+                <td><a href="https://en.wikipedia.org/wiki/Saltwater_crocodile" target="_blank"><img src="crocodile.avif" alt="Saltwater Crocodile"></a></td>
+            </tr>
+            <tr>
+                <td>African Grey Parrot</td>
+                <td>Bird</td>
+                <td>40-60 years</td>
+                <td>Central Africa</td>
+                <td><a href="https://en.wikipedia.org/wiki/African_grey_parrot" target="_blank"><img src="parrot.jpg" alt="African Grey Parrot"></a></td>
+            </tr>
+            <tr>
+                <td>Siberian Tiger</td>
+                <td>Mammal</td>
+                <td>15-20 years</td>
+                <td>Russia, China</td>
+                <td><a href="https://en.wikipedia.org/wiki/Siberian_tiger" target="_blank"><img src="tiger.jpg" alt="Siberian Tiger"></a></td>
+            </tr>
+            <tr>
+                <td>Komodo Dragon</td>
+                <td>Reptile</td>
+                <td>30 years</td>
+                <td>Indonesia</td>
+                <td><a href="https://en.wikipedia.org/wiki/Komodo_dragon" target="_blank"><img src="dragon.jpg" alt="Komodo Dragon"></a></td>
+            </tr>
+            <tr>
+                <td>Indian Rhino</td>
+                <td>Mammal</td>
+                <td>35-40 years</td>
+                <td>Grasslands in India</td>
+                <td><a href="https://en.wikipedia.org/wiki/Indian_rhinoceros" target="_blank"><img src="rhino.jpg" alt="Indian Rhino"></a></td>
+            </tr>
+            <tr>
+                <td>Indian Peafowl (Peacock)</td>
+                <td>Bird</td>
+                <td>15 years</td>
+                <td>India and Sri Lanka</td>
+                <td><a href="https://en.wikipedia.org/wiki/Indian_peafowl" target="_blank"><img src="peacock.jpg" alt="Peacock"></a></td>
+            </tr>
+            <tr>
+                <td>Panda</td>
+                <td>Mammal</td>
+                <td>20 years</td>
+                <td>China</td>
+                <td><a href="https://en.wikipedia.org/wiki/Giant_panda" target="_blank"><img src="panda.jpg" alt="Panda"></a></td>
+            </tr>
+            
+        </table>
+</div>
+</body>
+<footer>&copy; Lakshmikanth</footer>
+</html
+

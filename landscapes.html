@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Landscapes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #46fae8;
+            }
+            
+            li {
+            float: left;
+            padding-right: 20px;
+            }
+            
+            li a, .dropbtn {
+            display: inline-block;
+            color: rgb(9, 12, 9);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+            
+            li a:hover, .dropdown:hover .dropbtn {
+            background-color: rgb(12, 181, 253);
+            }
+            
+            li.dropdown {
+            display: inline-block;
+            }
+            
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color:aquamarine;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            }
+            
+            .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            }
+            
+            .dropdown-content a:hover {background-color: #f1f1f1;}
+            
+            .dropdown:hover .dropdown-content {
+            display: block;
+            }
+        body{
+            margin: 0;
+            color: white;
+            padding: 0;
+            background-image: url("landscapes_background.jpg");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            background-attachment: fixed;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 90px;
+        }
+        th, td {
+            border: 3px double black;
+        
+            text-align: center;
+            padding: 20px;
+            width: 200px;  
+            height: 50px; 
+        }
+        tr:hover {
+            background-color: lightseagreen;
+            cursor: pointer;
+        }
+        th {
+            background-color: transparent;
+        }
+        td img {
+            max-width: 200px;
+            height: auto;
+        }
+        td{
+            color: white;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Categories</a>
+            <div class="dropdown-content">
+                <a href="plants.html">Plants</a>
+                <a href="animals.html">Animals</a>
+                <a href="landscapes.html">Landscapes</a>
+            </div>
+        </li>
+        <li><a href="Homepage.html">Home</a></li>
+    </ul>
+    <h1>Landscapes</h1>
+    <table>
+        <tr>
+            <th><h2>Name</h2></th>
+            <th><h2>Description</h2></th>
+            <th><h2>Uses</h2></th>
+            <th><h2>Region</h2></th>
+            <th><h2>Photo</h2></th>
+        </tr>
+        <tr>
+            <td>Desert</td>
+            <td>Dry, barren area with little rainfall and extreme temperatures.</td>
+            <td>Mining, tourism, renewable energy (solar).</td>
+            <td>Middle East, North Africa, Southwest USA</td>
+            <td><a href="https://en.wikipedia.org/wiki/Desert" target="_blank"><img src="desert.jpg" alt="Desert landscape"></td>
+           
+        </tr>
+        <tr>
+            <td>Garden</td>
+            <td>Man-made landscape with arranged plants, flowers, and structures.</td>
+            <td>Recreation, relaxation, biodiversity conservation.</td>
+            <td>Worldwide</td>
+            <td><a href="https://en.wikipedia.org/wiki/Garden" target="_blank"><img src="garden.avif" alt="Garden landscape"></a></td>
+        </tr>
+        </tr>
+        <tr>
+            <td>Woodland</td>
+            <td>Area densely populated with trees, shrubs, and wildlife.</td>
+            <td>Lumber, recreation, conservation, habitat for wildlife.</td>
+            <td>North America, Europe</td>
+            <td><a href="https://en.wikipedia.org/wiki/Woodland" target="_blank"><img src="woodland.jpg" alt="Woodland landscape"></a></td>
+        </tr>
+        <tr>
+            <td>Coastal</td>
+            <td>Area where land meets the ocean or sea, featuring beaches or cliffs.</td>
+            <td>Fishing, tourism, transport, biodiversity.</td>
+            <td>Global coastal regions</td>
+            <<td><a href="https://en.wikipedia.org/wiki/Coast" target="_blank"><img src="costal.jpeg" alt="Coastal landscape"></a></td>
+        </tr>
+        </tr>
+        <tr>
+            <td>Tundra</td>
+            <td>Cold, treeless landscape with frozen subsoil.</td>
+            <td>Research, climate monitoring, indigenous communities.</td>
+            <td>Arctic, Antarctica</td>
+            <td><a href="https://en.wikipedia.org/wiki/Tundra" target="_blank"><img src="tundra.jpg" alt="Tundra landscape"></a></td>
+        </tr>
+        <tr>
+            <td>Wetland</td>
+            <td>Land saturated with water, home to diverse species.</td>
+            <td>Water filtration, flood control, wildlife habitat.</td>
+            <td>Worldwide (river deltas, coastal areas)</td>
+            <td><a href="https://en.wikipedia.org/wiki/Wetland" target="_blank"><img src="wetlands.webp" alt="Wetland landscape"></a></td>
+        </tr>
+        <tr>
+            <td>Snowscape</td>
+            <td>Snow-covered landscape in colder climates or seasons.</td>
+            <td>Skiing, tourism, water resource (snowmelt).</td>
+            <td>Alps, Himalayas, Antarctica</td>
+            <td><a href="https://en.wikipedia.org/wiki/Snow" target="_blank"><img src="snowscape.avif" alt="Snowscape landscape"></a></td>
+        </tr>
+        <tr>
+            <td>Tropical</td>
+            <td>Warm, lush, and dense forest area found near the equator.</td>
+            <td>Tourism, biodiversity, carbon storage.</td>
+            <td>Amazon, Congo Basin, Southeast Asia</td>
+            <td><a href="https://en.wikipedia.org/wiki/Tropical_rainforest" target="_blank"><img src="tropical.jpg" alt="Tropical landscape"></a></td>
+        </tr>
+    </table>
+</body>
+<footer>&copy; Lakshmikanth</footer>
+</html>

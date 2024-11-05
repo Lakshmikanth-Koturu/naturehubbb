@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Plants</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #46fae8;
+            }
+            
+            li {
+            float: left;
+            padding-right: 20px;
+            }
+            
+            li a, .dropbtn {
+            display: inline-block;
+            color: rgb(9, 12, 9);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+            
+            li a:hover, .dropdown:hover .dropbtn {
+            background-color: rgb(12, 181, 253);
+            }
+            
+            li.dropdown {
+            display: inline-block;
+            }
+            
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color:aquamarine;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            }
+            
+            .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            }
+            
+            .dropdown-content a:hover {background-color: #f1f1f1;}
+            
+            .dropdown:hover .dropdown-content {
+            display: block;
+            }
+        body{
+            margin: 0;
+            color:white;
+            padding: 0;
+            background-image: url('Forest_2.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            background-attachment: fixed;
+          
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius:100px;
+            background-color: rgba(255, 255, 255, 0.2)
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+            width: 200px;  
+            height: 50px; 
+        }
+        th {
+            background-color:transparent;
+        }
+        td img {
+            max-width: 200px;
+            height: auto;
+        }
+        td{
+            color: white;
+        }
+        tr:hover {
+            background-color: lightcoral;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Categories</a>
+            <div class="dropdown-content">
+            <a href="plants.html">Plants</a>
+            <a href="animals.html">Animals</a>
+            <a href="landscapes.html">Landscapes</a>
+    <li><a href="Homepage.html">Home</a></li>
+    </div>
+    </li>
+    </ul>
+    <h1>Plants</h1>
+    <table>
+        <tr>
+            <th><h2>Name</h2></th>
+            <th><h2>Type</h2></th>
+            <th><h2>Uses</h2></th>
+            <th><h2>Region</h2></th>
+            <th><h2>Photo</h2></th>
+        </tr>
+        <tr>
+            <td>Rose</td>
+            <td>Flowering</td>
+            <td>Decoration</td>
+            <td>Cold climate</td>
+            <td><a href="https://en.wikipedia.org/wiki/Rose" target="_blank"><img src="rose_plant.jpg" alt="Rose"></a></td>
+        </tr>
+        <tr>
+            <td>Rosewood</td>
+            <td>Tree</td>
+            <td>Furniture, Musical Instruments</td>
+            <td>Tropical</td>
+            <td><a href="https://en.wikipedia.org/wiki/Rosewood" target="_blank"><img src="rosewood.jpg" alt="Rosewood"></a></td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>Fruit</td>
+            <td>Food, Smoothies</td>
+            <td>Tropical, Subtropical Regions</td>
+            <td><a href="https://en.wikipedia.org/wiki/Banana" target="_blank"><img src="banana-plants.jpg" alt="Banana"></a></td>
+        </tr>
+        <tr>
+            <td>Sandalwood</td>
+            <td>Tree</td>
+            <td>Fragrance, Cosmetics</td>
+            <td>India, Southeast Asia</td>
+            <td><a href="https://en.wikipedia.org/wiki/Sandalwood" target="_blank"><img src="sandlewood.jpg" alt="Sandalwood"></a></td>
+        </tr>
+        <tr>
+            <td>Neem</td>
+            <td>Tree</td>
+            <td>Medicinal, Pesticide</td>
+            <td>Indian Subcontinent</td>
+            <td><a href="https://en.wikipedia.org/wiki/Neem" target="_blank"><img src="neem.jpg" alt="Neem"></a></td>
+        </tr>
+        <tr>
+            <td>Tulasi (Holy Basil)</td>
+            <td>Herb</td>
+            <td>Medicinal, Religious</td>
+            <td>India</td>
+            <td><a href="https://en.wikipedia.org/wiki/Tulasi" target="_blank"><img src="tulasi.webp" alt="Tulasi"></a></td>
+        </tr>
+        <tr>
+            <td>Mango</td>
+            <td>Fruit</td>
+            <td>Food, Juices</td>
+            <td>Tropical Regions</td>
+            <td><a href="https://en.wikipedia.org/wiki/Mango" target="_blank"><img src="mango.png" alt="Mango"></a></td>
+        </tr>
+        <tr>
+            <td>Teak</td>
+            <td>Tree</td>
+            <td>Shipbuilding, Outdoor Furniture</td>
+            <td>Southeast Asia</td>
+            <td><a href="https://en.wikipedia.org/wiki/Teak" target="_blank"><img src="teak.jpg" alt="Teak"></a></td>
+        </tr>
+        <tr>
+            <td>Lavender</td>
+            <td>Herb</td>
+            <td>Fragrance, Landscaping</td>
+            <td>Mediterranean</td>
+            <td><a href="https://en.wikipedia.org/wiki/Lavender" target="_blank"><img src="lavender.avif" alt="Lavender"></a></td>
+        </tr>
+        <tr>
+            <td>Cedarwood</td>
+            <td>Tree</td>
+            <td>Aromatic Oils, Construction</td>
+            <td>Mediterranean, Himalayas</td>
+            <td><a href="https://en.wikipedia.org/wiki/Cedar" target="_blank"><img src="cedarwood.jpg" alt="Cedarwood"></a></td>
+        </tr>
+        <tr>
+            <td>Spinach</td>
+            <td>Vegetable</td>
+            <td>Salads, Cooking</td>
+            <td>Worldwide</td>
+            <td><a href="https://en.wikipedia.org/wiki/Spinach" target="_blank"><img src="spinach.jpg" alt="Spinach"></a></td>
+        </tr>
+        <tr>
+            <td>Bamboo</td>
+            <td>Grass</td>
+            <td>Indoor Decor, Fencing</td>
+            <td>Asia, South America</td>
+            <td><a href="https://en.wikipedia.org/wiki/Bamboo" target="_blank"><img src="bamboo.jpg" alt="Bamboo"></a></td>
+        </tr>
+        <tr>
+            <td>Mahogany</td>
+            <td>Tree</td>
+            <td>Furniture, Cabinetry</td>
+            <td>Tropical America</td>
+            <td><a href="https://en.wikipedia.org/wiki/Mahogany" target="_blank"><img src="mahogany.webp" alt="Mahogany"></a></td>
+        </tr>
+        <tr>
+            <td>Brahmi</td>
+            <td>Herb</td>
+            <td>Brain Health, Cognitive Support</td>
+            <td>India, Australia</td>
+            <td><a href="https://en.wikipedia.org/wiki/Brahmi" target="_blank"><img src="bramhi.webp" alt="Brahmi"></a></td>
+        </tr>
+        <tr>
+            <td>Tomato</td>
+            <td>Vegetable (Fruit Botanically)</td>
+            <td>Cooking, Salads</td>
+            <td>Worldwide</td>
+            <td><a href="https://en.wikipedia.org/wiki/Tomato" target="_blank"><img src="tomato plant.webp" alt="Tomato"></a></td>
+        </tr>
+        <tr>
+            <td>Pipal (Sacred Fig)</td>
+            <td>Tree</td>
+            <td>Religious, Medicinal</td>
+            <td>India, Nepal</td>
+            <td><a href="https://en.wikipedia.org/wiki/Sacred_fig" target="_blank"><img src="pipal tree.jpg" alt="Pipal"></a></td>
+        </tr>
+        <tr>
+            <td>Banyan</td>
+            <td>Tree</td>
+            <td>Shade, Medicinal</td>
+            <td>India</td>
+            <td><a href="https://en.wikipedia.org/wiki/Banyan" target="_blank"><img src="banyan tree.jpg" alt="Banyan"></a></td>
+        </tr>
+        <tr>
+            <td>Carrot</td>
+            <td>Vegetable</td>
+            <td>Cooking, Salads</td>
+            <td>Worldwide</td>
+            <td><a href="https://en.wikipedia.org/wiki/Carrot" target="_blank"><img src="carrot.jpg" alt="Carrot"></a></td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Fruit</td>
+            <td>Food, Juices</td>
+            <td>Temperate Regions</td>
+            <td><a href="https://en.wikipedia.org/wiki/Apple" target="_blank"><img src="apple tree.webp" alt="Apple"></a></td>
+        </tr>
+        <tr>
+            <td>Orchid</td>
+            <td>Flowering</td>
+            <td>Ornamental, Indoor Decoration</td>
+            <td>Tropical Regions</td>
+            <td><a href="https://en.wikipedia.org/wiki/Orchid" target="_blank"><img src="orchid plant.webp" alt="Orchid"></a></td>
+        </tr>
+        <tr>
+            <td>Agarwood</td>
+            <td>Tree</td>
+            <td>Perfume, Incense</td>
+            <td>Southeast Asia</td>
+            <td><a href="https://en.wikipedia.org/wiki/Agarwood" target="_blank"><img src="agarwood tree.jpg" alt="Agarwood"></a></td>
+        </tr>
+        
+        
+</body>
+<footer>&copy;Lakshmikanth</footer>
